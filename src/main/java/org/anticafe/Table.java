@@ -8,7 +8,7 @@ public class Table {
      */
     private final int id;
     /**
-     * Метод показывает, какой стол свободный
+     * Метод показывает, свободен ли столик
      */
     private boolean isFree;
 
@@ -22,8 +22,8 @@ public class Table {
     }
 
     /**
-     * Метод проверяет, свободен ли стол
-     * @return true - стол свободный, false - стол занят
+     * Метод проверяет, свободен ли столик
+     * @return true - столик свободный, false - столик занят
      */
 
     public boolean isFree() {

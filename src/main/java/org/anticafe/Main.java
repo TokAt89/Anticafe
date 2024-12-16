@@ -12,10 +12,10 @@ import org.apache.logging.log4j.LogManager;
  * Позволяет выполнять различные действия, такие как занятие и освобождение столиков, просмотр информации о столиках, визитах и прибыли, просмотр статистических данных
  */
 public class Main {
+    private static final Logger logger = LogManager.getLogger(Main.class);
     /**
      * Представляет собой меню для пользователя антикафе
      */
-    private static final Logger logger = LogManager.getLogger(Main.class);
     private static String menu = """
 
             1. Занять столик
